@@ -1,9 +1,7 @@
 .navBar {
-    padding: 0 0 !important
-}
-
-.navBar {
     width: 100%;
+    padding: 25px 0!important;
+    align-items: flex-start !important;
 }
 
 .nav {
