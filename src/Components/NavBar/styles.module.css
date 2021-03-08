@@ -1,0 +1,16 @@
+.navBar {
+    padding: 0 0 !important
+}
+
+.navBar,
+.nav {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.link {
+}
+
+.link:hover {
+    text-decoration: underline!important;
+}

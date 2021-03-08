@@ -1,0 +1,44 @@
+.app {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.topPart,
+.mainPart {
+    margin-bottom: 30px;
+}
+
+.topPart {
+    min-height: 800px;
+    background: url("../../Images/fon.jpg") center no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 16px;
+}
+
+.navBarContainer {
+    border-bottom: 1px solid white;
+    min-height: 100px;
+    display: flex;
+}
+
+.headerContainer {
+    margin: auto 0;
+}
+
+.footer {
+    background-color: mediumseagreen;
+}
+
+.copyright {
+    background-color: seagreen;
+}
+
+
