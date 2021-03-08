@@ -20,9 +20,9 @@ export default function Footer() {
                     <div>Документы Фонда</div>
                 </div>
                 <div className={styles.socialLinks}>
-                    <a href=""><img src={instagramIcon} alt="instagram"/></a>
-                    <a href=""><img src={facebookIcon} alt="facebook"/></a>
-                    <a href=""><img src={youtubeIcon} alt="youtube"/></a>
+                    <a href="https://www.instagram.com/?hl=ru"><img src={instagramIcon} alt="instagram"/></a>
+                    <a href="https://www.facebook.com/"><img src={facebookIcon} alt="facebook"/></a>
+                    <a href="https://www.youtube.com/"><img src={youtubeIcon} alt="youtube"/></a>
                 </div>
             </div>
             <div className={styles.footerColumn2}>

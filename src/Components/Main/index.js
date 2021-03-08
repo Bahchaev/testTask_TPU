@@ -1,5 +1,4 @@
 import React from "react";
-import cn from 'classnames'
 
 import styles from './styles.module.css'
 import MainPicture from "../MainPicture";
@@ -73,9 +72,9 @@ export default function Main() {
                 </div>
             </div>
 
-            {pictures.map((pic) => {
+            {pictures.map((pic, index) => {
                 return (
-                    <MainPicture text={pic.text} img={pic.img}/>
+                    <MainPicture text={pic.text} img={pic.img} key={`picture-${index}`}/>
                 )
             })}
 
